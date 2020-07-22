@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { axiosWithAuth } from '../components/axiosAuth';
- 
 export const FriendsList = () =>{
     const [data, setData] = useState([])
 
