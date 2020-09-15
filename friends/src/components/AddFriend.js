@@ -20,7 +20,7 @@ const initialFormValues = {
         .then((res) => {
           console.log("New Friend");
           console.log(res);
-          history.push("/");
+          history.push("/friends-list");
         })
         .catch((err) => {
           console.log(err);
